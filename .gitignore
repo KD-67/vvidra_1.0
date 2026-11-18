@@ -1,0 +1,16 @@
+# General
+data/
+
+# Python
+.venv/
+__pycache__/
+.env
+
+# Node / Svelte
+node_modules/
+.svelte-kit/
+build/
+
+# Claude
+CLAUDE.local.md 
+.claude/settings.local.json 
