@@ -11,4 +11,4 @@ schema = strawberry.Schema(query=Query)
 app = FastAPI()
 app.include_router(GraphQLRouter(schema), prefix = "/graphql")
 
-print("Hello world!")
+print("Hello world! What the heck is up")
